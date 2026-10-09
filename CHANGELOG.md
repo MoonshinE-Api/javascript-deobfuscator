@@ -2,6 +2,9 @@
 
 ## 17.0.0 — standalone source export
 
+- Prepared the public `rewq-js-deobfuscator` npm package with a runtime-only file list and MIT license.
+- Added an unconditional CLI wrapper so installed commands work through package-manager symlinks.
+- Updated the README with npm/MIT badges, installed commands, a before/after example and clearer output guidance.
 - Extracted the existing offline transformation pipeline and its dependencies into a standalone package.
 - Preserved the complete `unpack()` transformation core.
 - Retained the single-file CLI, report CLI, HTML reading desk, embedded-code extraction and candidate reading tools.

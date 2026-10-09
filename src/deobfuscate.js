@@ -228,7 +228,7 @@ export function deobfuscate(source, { passes = 8 } = {}) {
   return { code: generate(ast, { comments: true, jsescOption: { minimal: true } }).code + '\n', stats };
 }
 
-async function main() {
+export async function main() {
   const args = process.argv.slice(2);
   if (!args.length || args.includes('--help') || args.includes('-h')) {
     console.log('Usage: node deobfuscate.js <input.js|-> [-o output.js] [--passes 1..30]\nUse - for stdin. Without -o, readable JavaScript goes to stdout.\nInput is parsed and transformed statically; it is never executed.');

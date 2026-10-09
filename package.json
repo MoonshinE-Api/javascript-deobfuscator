@@ -1,8 +1,8 @@
 {
   "name": "rewq-js-deobfuscator",
   "version": "17.0.0",
-  "private": true,
-  "description": "Offline JavaScript deobfuscation and source reading tools.",
+  "description": "Decode common JavaScript obfuscation patterns and build a searchable source reading desk.",
+  "author": "Rewq",
   "type": "module",
   "license": "MIT",
   "repository": {
@@ -12,13 +12,18 @@
   "engines": {
     "node": ">=22"
   },
+  "homepage": "https://github.com/MoonshinE-Api/javascript-deobfuscator#readme",
+  "bugs": { "url": "https://github.com/MoonshinE-Api/javascript-deobfuscator/issues" },
+  "keywords": ["javascript", "deobfuscator", "deobfuscation", "ast", "babel", "readability", "cli"],
   "exports": {
     ".": "./index.js"
   },
   "bin": {
-    "js-deobfuscate": "./src/deobfuscate.js",
+    "js-deobfuscate": "./bin/deobfuscate.js",
     "js-deobfuscate-report": "./unpack.js"
   },
+  "files": ["bin/", "src/", "index.js", "unpack.js", "examples/", "README.md", "LICENSE", "CHANGELOG.md"],
+  "publishConfig": { "access": "public", "registry": "https://registry.npmjs.org/" },
   "scripts": {
     "test": "node --test --test-concurrency=2 tests/*.test.js",
     "deobfuscate": "node src/deobfuscate.js",
