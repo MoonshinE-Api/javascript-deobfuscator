@@ -4,7 +4,11 @@
   "private": true,
   "description": "Offline JavaScript deobfuscation and source reading tools.",
   "type": "module",
-  "license": "UNLICENSED",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MoonshinE-Api/javascript-deobfuscator.git"
+  },
   "engines": {
     "node": ">=22"
   },

@@ -107,4 +107,6 @@ See [CONTRIBUTING.md](CONTRIBUTING.md) and [CHANGELOG.md](CHANGELOG.md). Tests i
 
 ## License
 
-A license has not been selected by the repository owner. The package is marked `UNLICENSED` and private for npm publication. Dependencies retain their own licenses. Public GitHub hosting does not change the package's npm publication setting.
+This project is licensed under the [MIT License](LICENSE).
+
+Copyright (c) 2026 Rewq. Dependencies retain their own licenses. The package remains private for npm publication; this setting does not restrict its MIT license.
