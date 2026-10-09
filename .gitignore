@@ -1,0 +1,9 @@
+node_modules/
+output/
+coverage/
+*.log
+*.tgz
+.env
+.env.*
+.DS_Store
+Thumbs.db
