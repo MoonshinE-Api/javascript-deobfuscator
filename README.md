@@ -1,4 +1,4 @@
-# Rewq JavaScript Deobfuscator
+# Javascript Deobfuscator
 
 [![MIT License](https://img.shields.io/badge/license-MIT-f5c542?logo=opensourceinitiative&logoColor=white)](LICENSE)
 [![npm version](https://img.shields.io/npm/v/rewq-js-deobfuscator?logo=npm&logoColor=white&color=cb3837)](https://www.npmjs.com/package/rewq-js-deobfuscator)
@@ -148,3 +148,9 @@ Found a case that stays obfuscated, or a transform that changes behavior? [Open 
 [MIT](LICENSE) · Copyright (c) 2026 Rewq.
 
 Dependencies keep their own licenses.
+
+## Credits
+
+Maintained by **Rewq**.
+
+**Discord:** `@rewq_7`
