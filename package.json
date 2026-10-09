@@ -1,5 +1,5 @@
 {
-  "name": "rewq-js-deobfuscator",
+  "name": "javascript-unpack",
   "version": "17.0.0",
   "description": "Decode common JavaScript obfuscation patterns and build a searchable source reading desk.",
   "author": "Rewq",
